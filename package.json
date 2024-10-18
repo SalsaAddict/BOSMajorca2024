@@ -17,6 +17,8 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
+    "@angular/service-worker": "^17.3.0",
+    "bootswatch": "^5.3.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -25,6 +27,7 @@
     "@angular-devkit/build-angular": "^17.3.10",
     "@angular/cli": "^17.3.10",
     "@angular/compiler-cli": "^17.3.0",
+    "angular-cli-ghpages": "^2.0.1",
     "typescript": "~5.4.2"
   }
 }

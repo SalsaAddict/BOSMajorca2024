@@ -1,7 +1,16 @@
 import { DOCUMENT } from '@angular/common';
 import { Inject, Injectable, NgZone } from '@angular/core';
-import { debounceTime, fromEvent } from 'rxjs';
+import { fromEvent } from 'rxjs';
 import { TimetableService } from './timetable.service';
+
+export function stringCompare(string1: string, string2: string) {
+  let result = string1.localeCompare(string2, 'en-GB', {
+    usage: 'search',
+    sensitivity: 'base',
+    ignorePunctuation: true
+  });
+  return result === 0;
+}
 
 @Injectable({
   providedIn: 'root'

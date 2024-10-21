@@ -13,4 +13,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class PortraitComponent {
   constructor(readonly timetable: TimetableService) {}
+  setDay($event: Event, day: Timetable.Day) {
+    $event.preventDefault();
+    $event.stopPropagation();
+    this.timetable.setNow(day);
+  }
 }

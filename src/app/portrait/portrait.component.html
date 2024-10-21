@@ -1,18 +1,15 @@
-<nav class="navbar navbar-expand bg-light fixed-top">
-  <div class="container">
-    <ul class="navbar-nav me-auto">
+<div class="container-fluid fixed-top mt-2">
+  <div class="d-flex justify-content-center">
+    <div class="btn-group btn-group-lg">
       @for (day of timetable.days; track day.Day) {
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          aria-current="page"
-          [routerLink]="['/guestinfo']"
-          routerLinkActive="active">
-          <i class="bi-person-fill"></i>
-          Guests
-        </a>
-      </li>
+      <button
+        type="button"
+        class="btn btn-outline-light text-uppercase"
+        [class.active]="timetable.day === day"
+        (click)="setDay($event, day)">
+        {{ day.Day }}
+      </button>
       }
-    </ul>
+    </div>
   </div>
-</nav>
+</div>

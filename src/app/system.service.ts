@@ -3,6 +3,10 @@ import { Inject, Injectable, NgZone } from '@angular/core';
 import { fromEvent } from 'rxjs';
 import { TimetableService } from './timetable.service';
 
+export function isNonEmptyString(value: unknown): value is string {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
 export function stringCompare(string1: string, string2: string) {
   let result = string1.localeCompare(string2, 'en-GB', {
     usage: 'search',

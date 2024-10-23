@@ -1,15 +1,131 @@
-<div class="container-fluid fixed-top mt-2">
-  <div class="d-flex justify-content-center">
-    <div class="btn-group btn-group-lg">
-      @for (day of timetable.days; track day.Day) {
-      <button
-        type="button"
-        class="btn btn-outline-light text-uppercase"
-        [class.active]="timetable.day === day"
-        (click)="setDay($event, day)">
-        {{ day.Day }}
-      </button>
-      }
+<div class="fixed-top bg-white shadow p-2">
+  <div class="text-bg-secondary text-center text-uppercase p-1">
+    BOS Majorca 2024 Timetable
+  </div>
+  <div class="container-fluid mt-2 px-2 text-uppercase">
+    <div class="d-flex flex-column gap-2 align-items-center">
+      <div class="btn-group btn-group-lg w-100">
+        @for (day of timetable.days; track day.Day) {
+        <a
+          [routerLink]="['/timetable', day.Day]"
+          class="btn btn-outline-secondary"
+          [class.active]="timetable.day === day">
+          {{ day.Day }}
+        </a>
+        }
+      </div>
+      <div class="d-flex gap-2">
+        <a
+          class="btn btn-lg btn-outline-secondary"
+          [routerLink]="['/timtable', 'now']">
+          <i class="bi-clock"></i>
+        </a>
+        <div class="btn-group btn-group-lg">
+          <button
+            type="button"
+            class="btn btn-outline-secondary"
+            (click)="previous()">
+            <i class="bi-caret-left-fill"></i>
+          </button>
+          <div
+            class="btn border-secondary text-bg-secondary text-nowrap align-middle">
+            <p class="m-0">
+              {{
+                timetable.toTime(timetable.day, timetable.hour) | date : 'HH:mm'
+              }}
+              &ndash;
+              {{
+                timetable.toTime(timetable.day, timetable.hour + 1)
+                  | date : 'HH:mm'
+              }}
+            </p>
+          </div>
+          <button
+            type="button"
+            class="btn btn-outline-secondary"
+            (click)="next()">
+            <i class="bi-caret-right-fill"></i>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
+</div>
+<div
+  class="container-fluid text-uppercase text-center align-middle text-nowrap">
+  <!-- Meal -->
+  @let meal = getMeal(); @if (meal) {
+  <div class="card mb-3 shadow animate__animated animate__rubberBand">
+    <div class="card-header text-bg-warning">
+      <i class="bi-alarm-fill"></i>
+      <b class="mx-2">{{ meal.title }}</b>
+      <i class="bi-alarm-fill"></i>
+    </div>
+    <div class="card-footer">
+      Served
+      {{ timetable.toTime(timetable.day, meal.hour) | date : 'HH:mm' }}
+      &ndash;
+      {{
+        timetable.toTime(timetable.day, meal.hour + meal.hours - 1)
+          | date : 'HH:mm'
+      }}
+    </div>
+  </div>
+  } @if (timetable.hour >= 22) {
+  <div class="card mb-3 shadow animate__animated animate__rubberBand">
+    <div class="card-header text-bg-danger">
+      <i class="bi-person-standing"></i>
+      <b class="mx-2">Dress Code</b>
+      <i class="bi-person-standing-dress"></i>
+    </div>
+    <div class="card-footer">
+      {{ timetable.day.Theme }}
+    </div>
+  </div>
+  }
+  <!-- Items -->
+  @let items = getItemsByTime();
+  <!-- Workshops & Activities -->
+  @if (items.length > 0) {
+  <!-- Areas -->
+  @for (area of timetable.areas; track area.Id) { @let areaItems =
+  getItemsByArea(items, area); @if (areaItems.length > 0) {
+  <div class="card mb-3 shadow animate__animated animate__fadeIn">
+    <div class="card-header text-bg-dark">
+      <b>{{ area.Description }}</b>
+    </div>
+    @for (item of areaItems; track item.Title; let last = $last) {
+    <div
+      [ngClass]="last ? 'card-footer' : 'card-body'"
+      [class.text-secondary]="item.Favourite === false"
+      [style.background-image]="bgImage(item)">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <b [innerHTML]="item.Title"></b>
+          </div>
+          <div class="col-1 text-end" (click)="favourite(item)">
+            @if (item.IsWorkshop) { @if (item.Favourite) {
+            <div
+              class="bi-heart-fill text-danger animate__animated animate__heartBeat animate__delay-1s"></div>
+            } @else {
+            <div class="bi-heart"></div>
+            } }
+          </div>
+        </div>
+      </div>
+      <p class="m-0" [innerHTML]="item.Subtitle"></p>
+      <p class="m-0" [innerHTML]="item.Description"></p>
+    </div>
+    }
+  </div>
+  } } }
+  <!-- Chillout & Social Time -->
+  @else {
+  <div class="alert alert-dark shadow animate__animated animate__fadeIn">
+    <i class="bi-cup-hot-fill"></i>
+    <b class="mx-2">Chillout &amp; Social Time</b>
+    <i class="bi-cup-hot-fill"></i>
+  </div>
+  }
 </div>

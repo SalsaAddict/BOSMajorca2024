@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1729688243751,
-  "index": "/BOSMajorca24/index.html",
+  "timestamp": 1729688423153,
+  "index": "/BOSMajorca2024/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,12 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "/BOSMajorca24/favicon.ico",
-        "/BOSMajorca24/index.html",
-        "/BOSMajorca24/main-ZC6SUY5O.js",
-        "/BOSMajorca24/manifest.webmanifest",
-        "/BOSMajorca24/polyfills-FFHMD2TL.js",
-        "/BOSMajorca24/styles-6J6DA4LW.css"
+        "/BOSMajorca2024/favicon.ico",
+        "/BOSMajorca2024/index.html",
+        "/BOSMajorca2024/main-ZC6SUY5O.js",
+        "/BOSMajorca2024/manifest.webmanifest",
+        "/BOSMajorca2024/polyfills-FFHMD2TL.js",
+        "/BOSMajorca2024/styles-6J6DA4LW.css"
       ],
       "patterns": []
     },
@@ -28,38 +28,38 @@
         "ignoreVary": true
       },
       "urls": [
-        "/BOSMajorca24/assets/icons/icon-128x128.png",
-        "/BOSMajorca24/assets/icons/icon-144x144.png",
-        "/BOSMajorca24/assets/icons/icon-152x152.png",
-        "/BOSMajorca24/assets/icons/icon-192x192.png",
-        "/BOSMajorca24/assets/icons/icon-384x384.png",
-        "/BOSMajorca24/assets/icons/icon-512x512.png",
-        "/BOSMajorca24/assets/icons/icon-72x72.png",
-        "/BOSMajorca24/assets/icons/icon-96x96.png",
-        "/BOSMajorca24/media/bootstrap-icons-OCU552PF.woff",
-        "/BOSMajorca24/media/bootstrap-icons-X6UQXWUS.woff2"
+        "/BOSMajorca2024/assets/icons/icon-128x128.png",
+        "/BOSMajorca2024/assets/icons/icon-144x144.png",
+        "/BOSMajorca2024/assets/icons/icon-152x152.png",
+        "/BOSMajorca2024/assets/icons/icon-192x192.png",
+        "/BOSMajorca2024/assets/icons/icon-384x384.png",
+        "/BOSMajorca2024/assets/icons/icon-512x512.png",
+        "/BOSMajorca2024/assets/icons/icon-72x72.png",
+        "/BOSMajorca2024/assets/icons/icon-96x96.png",
+        "/BOSMajorca2024/media/bootstrap-icons-OCU552PF.woff",
+        "/BOSMajorca2024/media/bootstrap-icons-X6UQXWUS.woff2"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/BOSMajorca24/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/BOSMajorca24/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/BOSMajorca24/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/BOSMajorca24/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/BOSMajorca24/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/BOSMajorca24/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/BOSMajorca24/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/BOSMajorca24/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/BOSMajorca24/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/BOSMajorca24/index.html": "8cc0e174420c0507877a4145f49c9da168137b15",
-    "/BOSMajorca24/main-ZC6SUY5O.js": "d9dfff8c2cca76ac4cd10fdf5a43e46f5f920219",
-    "/BOSMajorca24/manifest.webmanifest": "485131bdb083d562a2db11002132af40f22a7b6d",
-    "/BOSMajorca24/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
-    "/BOSMajorca24/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
-    "/BOSMajorca24/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
-    "/BOSMajorca24/styles-6J6DA4LW.css": "277bbecfe97c536f4371e919470018422506d47a"
+    "/BOSMajorca2024/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/BOSMajorca2024/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/BOSMajorca2024/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/BOSMajorca2024/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/BOSMajorca2024/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/BOSMajorca2024/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/BOSMajorca2024/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/BOSMajorca2024/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/BOSMajorca2024/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/BOSMajorca2024/index.html": "c502a223e6ca7be383ca18d9fb7699bd0f89adfa",
+    "/BOSMajorca2024/main-ZC6SUY5O.js": "d9dfff8c2cca76ac4cd10fdf5a43e46f5f920219",
+    "/BOSMajorca2024/manifest.webmanifest": "485131bdb083d562a2db11002132af40f22a7b6d",
+    "/BOSMajorca2024/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
+    "/BOSMajorca2024/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
+    "/BOSMajorca2024/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/BOSMajorca2024/styles-6J6DA4LW.css": "277bbecfe97c536f4371e919470018422506d47a"
   },
   "navigationUrls": [
     {

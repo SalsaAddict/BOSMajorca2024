@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1729687601128,
+  "timestamp": 1729687968904,
   "index": "/BOSMajorca24/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/BOSMajorca24/favicon.ico",
         "/BOSMajorca24/index.html",
-        "/BOSMajorca24/main-3HYR5GRH.js",
+        "/BOSMajorca24/main-ZC6SUY5O.js",
         "/BOSMajorca24/manifest.webmanifest",
         "/BOSMajorca24/polyfills-FFHMD2TL.js",
         "/BOSMajorca24/styles-6J6DA4LW.css"
@@ -53,8 +53,8 @@
     "/BOSMajorca24/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/BOSMajorca24/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/BOSMajorca24/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/BOSMajorca24/index.html": "2115a88ff6f19b207aa68c25da473aa7b6f26c20",
-    "/BOSMajorca24/main-3HYR5GRH.js": "5e7522d0c662ccb89b88fae5891c18bc55f073cf",
+    "/BOSMajorca24/index.html": "8cc0e174420c0507877a4145f49c9da168137b15",
+    "/BOSMajorca24/main-ZC6SUY5O.js": "d9dfff8c2cca76ac4cd10fdf5a43e46f5f920219",
     "/BOSMajorca24/manifest.webmanifest": "485131bdb083d562a2db11002132af40f22a7b6d",
     "/BOSMajorca24/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
     "/BOSMajorca24/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",

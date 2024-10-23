@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1729688778266,
+  "timestamp": 1729694241223,
   "index": "/BOSMajorca2024/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/BOSMajorca2024/favicon.ico",
         "/BOSMajorca2024/index.html",
-        "/BOSMajorca2024/main-ZXKZRHWQ.js",
+        "/BOSMajorca2024/main-6IFWNFRY.js",
         "/BOSMajorca2024/manifest.webmanifest",
         "/BOSMajorca2024/polyfills-FFHMD2TL.js",
         "/BOSMajorca2024/styles-6J6DA4LW.css"
@@ -53,8 +53,8 @@
     "/BOSMajorca2024/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/BOSMajorca2024/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/BOSMajorca2024/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/BOSMajorca2024/index.html": "fccc6939a69f971131f00e378ee7d781d15d473c",
-    "/BOSMajorca2024/main-ZXKZRHWQ.js": "7698e81d33397623332bd9bfa373fdf5e379702a",
+    "/BOSMajorca2024/index.html": "3103103c5484611287cca9de6a6a6ebaad3f7ec6",
+    "/BOSMajorca2024/main-6IFWNFRY.js": "fa679bcd6c70defe670b9b84b0ef67928d6ff1e6",
     "/BOSMajorca2024/manifest.webmanifest": "485131bdb083d562a2db11002132af40f22a7b6d",
     "/BOSMajorca2024/media/bootstrap-icons-OCU552PF.woff": "d5831fd39baf13aff7626e483b9a089730f18604",
     "/BOSMajorca2024/media/bootstrap-icons-X6UQXWUS.woff2": "020c3c6f9280a315e8425d7f92e15bcd0cdda1b2",
